@@ -1,0 +1,289 @@
+/* css reset */
+
+*{
+    padding: 0;
+    margin: 0;
+    font size:100%;
+    line-height: 1em;
+}
+
+/*main styling for body*/
+
+body {
+    margin: auto;
+    color: #222;
+    font-family: "avenir", sans-serif;
+}
+h2,h3 {
+    font-family: "avenir"; 
+    font-size: 2.7em;
+    line-height: 1.5;
+}
+h2{
+    text-align: center;
+    padding: 15px 35px 15px 35px;
+}
+
+h1 {
+    color:#1E8AA2;
+    font-size: 3.5em;
+    font-family: "avenir";
+    text-align: center;
+    padding: 25px;
+    
+}
+
+p{
+    line-height: 1.7em;
+    font-size: 1.1em;
+}
+
+.padded{
+    padding: 30px;
+}
+
+/*NAVIGATION STYLING*/
+
+ul li{
+    font-family: "avenir"; 
+    display: inline-block;
+    margin-block-start: auto;
+}
+
+a:hover{
+    color: #FF8F9C;
+}
+
+a {
+    color: black;
+    text-decoration:none;
+    font-size: 1.5em;  
+}
+
+/* IMAGE STYLING */
+
+img {
+    max-width: 100%;
+
+}
+
+#about_me_image{
+    text-align: center;
+}
+  /*CSS GRID - NAVIGATION AND HEADING AND FOOTER */
+
+
+ul{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+}
+
+/*BUTTON STYLING */
+
+#home_button{
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+
+#lets_talk_portfolio{
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+
+
+
+/*ABOUT PAGE STYLING*/
+
+#interests{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    text-align: center;
+}
+
+#reading{
+    grid-column: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+#animals{
+    grid-column: 2;
+    padding: 20px;
+    text-align: center;
+}
+
+#films{
+    grid-column: 3;
+    padding: 20px ;
+    text-align: center;
+}
+
+#designer{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    text-align: center;
+}
+
+#solver{
+   grid-column: 1;
+    padding: 20px ;
+    text-align: center; 
+}
+
+#user{
+    grid-column: 2;
+    padding: 20px ;
+    text-align: center;
+}
+
+#research{
+    grid-column: 3;
+    padding: 20px ;
+    text-align: center;
+}
+
+#about_buttons{
+    display: grid;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    text-align: center; 
+}
+
+#about_button_one{
+    grid-row: 1;
+}
+
+#about_button_two{
+    grid-row: 3;
+}
+
+/*PORFOLIO PAGE STYLING*/
+
+#portfolio_section{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+}
+
+#infamous{
+    grid-column: 1;
+    text-align: center;
+}
+
+#infograph{
+    grid-column: 3;
+    text-align: center;
+}
+
+#branding{
+    grid-column: 5;
+    text-align: center;
+}
+
+#spare_time{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+}
+
+#illustration{
+    grid-column: 2;
+    text-align: center;
+}
+
+#photography{
+    grid-column: 4;
+    text-align: center;
+}
+
+/*CASE STUDY STYLING*/
+
+.case_study_captions{
+    padding: 30px;
+    text-align: center;
+}
+
+.case_study_images{
+    margin: 30px;
+    text-align: center;
+}
+
+.portfolio_one_set{
+    display: grid;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    text-align: center;
+}
+
+.view_prototype{
+    grid-row: 1;
+    grid-column: 2;
+    text-align: center;
+}
+
+.read_more{
+    grid-row: 3;
+    grid-column: 2;
+    text-align: center;
+}
+
+.portfolio_two_set{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    text-align: center;
+    padding: 60px 0 0 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+.back_to{
+    grid-column: 1;
+}
+
+.next_to{
+    grid-column: 3;
+}
+
+
+/* CONTACT PAGE*/
+
+#contact_buttons{
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    text-align: center;
+    padding: 60px 0 0 0;
+     margin-left: 15px;
+    margin-right: 15px;
+}
+    
+#email_button{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+#download_cv{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#social_media{
+    grid-template-columns: 33.33% 33.33% 33.33% ;
+    text-align: center;
+    padding: 60px 0 0 0;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.twitter {
+    grid-column: 1;
+}
+
+.tumblr{
+    grid-column: 3;
+}
+
+.github{
+    grid-column: 5;
+}
