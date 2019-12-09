@@ -287,3 +287,15 @@ ul{
 .github{
     grid-column: 5;
 }
+
+/*ERROR PAGE STYLING*/
+
+.error_page_css {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.error_links{
+    padding: 30px 30px 30px 30px
+}
