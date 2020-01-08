@@ -39,9 +39,20 @@ p{
 }
 
 .padded{
-    padding: 30px;
+    padding: 50px;
+    margin: 0 30px 0 30px;
 }
 
+.padded a{
+    font-size: 1.1em;
+    color: #FF8F9C;
+    
+}
+
+.padded a:hover {
+    color: black;
+    
+}
 /*NAVIGATION STYLING*/
 
 ul li{
@@ -60,6 +71,9 @@ a {
     font-size: 1.5em;  
 }
 
+a img:hover{
+    transform: scale(1.1);
+}
 /* IMAGE STYLING */
 
 img {
@@ -80,7 +94,6 @@ ul{
 }
 
 /*BUTTON STYLING */
-
 #home_button{
     text-align: center;
     padding: 40px 0 0 0;
@@ -124,6 +137,7 @@ ul{
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 #solver{
@@ -164,6 +178,8 @@ ul{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     text-align: center;
+    padding: 30px;
+ 
 }
 
 #infamous{
@@ -185,6 +201,8 @@ ul{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     text-align: center;
+    padding: 30px;
+ 
 }
 
 #illustration{
@@ -286,16 +304,4 @@ ul{
 
 .github{
     grid-column: 5;
-}
-
-/*ERROR PAGE STYLING*/
-
-.error_page_css {
-    text-align: center;
-    text-decoration: none;
-    list-style: none;
-}
-
-.error_links{
-    padding: 30px 30px 30px 30px
 }
